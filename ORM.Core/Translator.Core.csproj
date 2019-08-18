@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>Translator.Core</AssemblyName>
+    <RootNamespace>Translator.Core</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Factories\IConnectionFactory.cs" />
+    <Compile Remove="ITableMap.cs" />
+    <Compile Remove="Services\IContextService.cs" />
+  </ItemGroup>
+
+</Project>
